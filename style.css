@@ -22,7 +22,7 @@ h1 {
 }
 .outermost {
   order: 2px solid #EBEBEB;
-  width: 1000px;
+  width: 1150px;
   /*   width: auto; */
   margin-left: auto;
   margin-right: auto;
@@ -71,14 +71,15 @@ h1 {
   padding: 12px;
   /*   font-family: "Montserrat", sans-serif; */
   font-family: "Comfortaa", cursive;
-  font-weight: 100;
+  font-weight: 900;
   color: #9B51E0;
   margin-right: 50px;
+  font-size: 20px;
 }
 
 /* INTRODUCTION AHHHHHHHHHHHHHHHHHHHHHHH */
 .block1 {
-  background-color: #6A7D8E;
+  background-color: #7D95AA;
   display: block;
   width: auto;
   height: auto;
@@ -166,6 +167,12 @@ h1 {
   background: rgba(229, 229, 229, 0.35);
 }
 
+.buttonBorder:hover{
+ transform: scale(1.1);
+ transition: transform .4s
+}
+
+
 .block3 {
   order: 2px solid green;
   background-color: #C1D2D6;
@@ -207,17 +214,19 @@ h1 {
 /* extracurriculars AHHHHHHHHHHHHHHHHHHHHH */
 
 .ec-description{
-  order: 2px solid red;
+  border: 6px dotted gray;
   padding: 20px;
+  margin-top: 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   text-align: center;
   font-weight: 900;
   color: black;
+  background-color:white;
 }
 .ec-title{
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;  font-size: 32px;
   padding-bottom: 10px;
   text-align: center;
   text-decoration: underline;
@@ -254,11 +263,13 @@ h1 {
   border: 10px solid #96BD26;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color:#E5FF9A;
+
 }
 
 .bavc-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -266,6 +277,7 @@ h1 {
 
 .bavc-img {
   border: 4px solid #96BD26;
+  background-color:white;
 }
 
 .bavc-req {
@@ -279,7 +291,7 @@ h1 {
 
 .bavc-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /*                                      ENTERPRISE FOR YOUTH                                  */
@@ -287,11 +299,12 @@ h1 {
   border: 10px solid #EE6421;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #FFC3A5; 
 }
 
 .efy-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -299,6 +312,7 @@ h1 {
 
 .efy-img {
   border: 4px solid #EE6421;
+  background-color:white;
 }
 
 .efy-req {
@@ -312,7 +326,7 @@ h1 {
 
 .efy-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /*                                        NEW DOOR VENTURES                            */
@@ -320,16 +334,18 @@ h1 {
   border: 10px solid #668540;
   width: 75%;
   padding: 10px 50px 10px 50px;
+    background-color:#D0E7B4;
+
 }
 
 .ndv-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 .ndv-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -337,6 +353,8 @@ h1 {
 
 .ndv-img {
   border: 4px solid #668540;
+    background-color:white;
+
 }
 
 .ndv-req {
@@ -350,7 +368,7 @@ h1 {
 
 .nvd-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /*                                       SF CONSERVATION CORPS                            */
@@ -358,11 +376,12 @@ h1 {
   border: 10px solid #019450;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #C2FFE3;
 }
 
 .sfcc-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -370,6 +389,8 @@ h1 {
 
 .sfcc-img {
   border: 4px solid #019450;
+    background-color: white;
+
 }
 
 .sfcc-req {
@@ -383,7 +404,7 @@ h1 {
 
 .sfcc-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /*                                              MISSIONBIT                                 */
@@ -391,11 +412,12 @@ h1 {
   border: 10px solid #DE019E;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #FFBEEC;
 }
 
 .missionbit-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -403,6 +425,8 @@ h1 {
 
 .missionbit-img {
   border: 4px solid #DE019E;
+    background-color: white;
+
 }
 
 .missionbit-req {
@@ -416,7 +440,7 @@ h1 {
 
 .missionbit-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /*                                              YOUTHWORKS                                 */
@@ -424,11 +448,12 @@ h1 {
   border: 10px solid #857C75;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #E1CBBA;
 }
 
 .sfyw-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -436,6 +461,8 @@ h1 {
 
 .sfyw-img {
   border: 4px solid #857C75;
+  background-color: white;
+
 }
 
 .sfyw-req {
@@ -449,7 +476,7 @@ h1 {
 
 .sfyw-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /* education!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -459,12 +486,13 @@ h1 {
   border: 10px solid #41AC92;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #D5F0E9;
 }
 
 
 .KA-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -485,7 +513,7 @@ h1 {
 
 .KA-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 /* QUIZLET */
 
@@ -493,11 +521,12 @@ h1 {
   border: 10px solid #3B4B84;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #DEE5FB;
 }
 
 .quizlet-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -518,7 +547,7 @@ h1 {
 
 .quizlet-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s;
 }
 
 /* DUOLINGO */
@@ -527,11 +556,12 @@ h1 {
   border: 10px solid #67C62D;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #DAFFC4
 }
 
 .duolingo-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -552,7 +582,7 @@ h1 {
 
 .duolingo-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /* MYSTUDYLIFE */
@@ -561,11 +591,12 @@ h1 {
   border: 10px solid #118367;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color:#BAD6CF
 }
 
 .msf-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -586,7 +617,7 @@ h1 {
 
 .msf-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /* COLLEGEBOARD  */
@@ -595,11 +626,12 @@ h1 {
   border: 10px solid #1E6192;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #C2E5FF;
 }
 
 .collegeboard-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -607,6 +639,7 @@ h1 {
 
 .collegeboard-img {
   border: 4px solid #1E6192;
+  background-color: white;
 }
 
 .collegeboard-req {
@@ -620,7 +653,7 @@ h1 {
 
 .collegeboard-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 /*  EASYBIB */
 
@@ -628,11 +661,12 @@ h1 {
   border: 10px solid #EE6421;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #FFD6C2;
 }
 
 .easybib-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -640,6 +674,7 @@ h1 {
 
 .easybib-img {
   border: 4px solid #EE6421;
+  background-color: white;
 }
 
 .easybib-req {
@@ -653,20 +688,20 @@ h1 {
 
 .easybib-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /*                                           resources.html                           */
 
-.r-block{
-  background-color: #07BEB8;
+.r-block2{
+  background-color: #F6E8EA;
 }
 
-.r-block{
-  background-color: #858AE3;
+.r-block1{
+  background-color: #B0C7BD;
 }
 
-.r-block{
+.r-block3{
   background-color: #2F4858;
 }
 
@@ -675,12 +710,13 @@ h1 {
   border: 10px solid #576995;
   width: 75%;
   padding: 10px 50px 10px 50px;
-  background-color: #FAF3DD;
+  background-color: #AFC6FF;
+  color:BLACK;
 }
 
 .rdc-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -701,7 +737,7 @@ h1 {
 
 .rdc-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /*                                       ONWARD CALIFORNIA                                 */
@@ -709,13 +745,13 @@ h1 {
   border: 10px solid #DE5041;
   width: 75%;
   padding: 10px 50px 10px 50px;
-    background-color:#FAF3DD;
+    background-color:#FFC0B9;
 
 }
 
 .ca-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -736,7 +772,7 @@ h1 {
 
 .ca-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /*                                               211                                    */
@@ -744,13 +780,13 @@ h1 {
   border: 10px solid #1E528E;
   width: 75%;
   padding: 10px 50px 10px 50px;
-    background-color:#FAF3DD;
+    background-color:#A6CFFF;
 
 }
 
 .uw-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -774,7 +810,7 @@ h1 {
   width:50%;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 900;
   line-height: 1.5;
   padding-top: 10px;
   order: 2px solid red;
@@ -782,7 +818,7 @@ h1 {
 
 .uw-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 .flex{
@@ -795,13 +831,13 @@ h1 {
   border: 10px solid #857C75;
   width: 75%;
   padding: 10px 50px 10px 50px;
-    background-color:#FAF3DD;
+    background-color:#F1DDCE;
 
 }
 
 .sffr-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+ font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -833,7 +869,7 @@ h1 {
 
 .sffr-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /*                                            sf gov                                  */
@@ -841,13 +877,13 @@ h1 {
   border: 10px solid #000000;
   width: 75%;
   padding: 10px 50px 10px 50px;
-    background-color:#FFCAAF;
+    background-color:#DDDDDD;
 
 }
 
 .gov-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+   font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -879,7 +915,7 @@ h1 {
 
 .gov-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
 /*                                               covid testing                                 */
@@ -887,13 +923,13 @@ h1 {
   border: 10px solid #213873;
   width: 75%;
   padding: 10px 50px 10px 50px;
-    background-color:#FFCAAF;
+    background-color:#B4C9FF;
 
 }
 
 .testing-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -925,12 +961,9 @@ h1 {
 
 .testing-img:hover{
  transform: scale(1.1);
- transition: transform .5s
+ transition: transform .4s
 }
 
-/* WEllNESS */
-
-/* Arkadium */
 
 /* resources during covid */
 .rdc {
@@ -940,8 +973,8 @@ h1 {
 }
 
 .rdc-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -950,15 +983,17 @@ h1 {
 /* WEllNESS */
 
 /* Arkadium */
+
 .Arkadium {
   border: 10px solid #D83076;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #FFD7E7;
 }
 
 .Arkadium-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -977,6 +1012,12 @@ h1 {
   order: 2px solid red;
 }
 
+.Arkadium-img:hover{
+ transform: scale(1.1);
+ transition: transform .4s
+}
+
+
 /*   Sworkit */
   
   
@@ -984,11 +1025,12 @@ h1 {
   border: 10px solid #F18D18;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #FFDCB4;
 }
 
 .sworkit-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -996,6 +1038,8 @@ h1 {
 
 .sworkit-img {
   border: 4px solid #F18D18;
+  padding:10px;
+  background-color: white;
 }
 
 .sworkit-req {
@@ -1007,6 +1051,12 @@ h1 {
   order: 2px solid red;
 }
 
+.sworkit-img:hover{
+ transform: scale(1.1);
+ transition: transform .4s
+}
+
+
 /*   All Recipes */
   
   
@@ -1014,11 +1064,12 @@ h1 {
   border: 10px solid #EE6421;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #FFD1BA;
 }
 
 .allrecipes-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -1036,6 +1087,12 @@ h1 {
   padding-top: 10px;
   order: 2px solid red;
 }
+
+.allrecipes-img:hover{
+ transform: scale(1.1);
+ transition: transform .4s
+}
+
   
 /*   Pinterest */
   
@@ -1044,11 +1101,12 @@ h1 {
   border: 10px solid #CD363F;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color:#FFB3B3
 }
 
 .pinterest-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+ font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -1067,23 +1125,30 @@ h1 {
   order: 2px solid red;
 }
 
+.pinterest-img:hover{
+ transform: scale(1.1);
+ transition: transform .4s
+}
+
+
 /* Live Animal Cameras */
 .lac {
-  border: 10px solid #019450;;
+  border: 10px solid #019450;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color: #BEF1CD
 }
 
 .lac-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
 }
 
 .lac-img {
-  border: 4px solid #019450;;
+  border: 4px solid #019450;
 }
 
 .lac-req {
@@ -1095,17 +1160,24 @@ h1 {
   order: 2px solid red;
 }
 
+.lac-img:hover{
+ transform: scale(1.1);
+ transition: transform .4s
+}
+
+
 /* Youtube */
 
 .youtube {
   border: 10px solid #FF0000;
   width: 75%;
   padding: 10px 50px 10px 50px;
+  background-color:#FFBABE;
 }
 
 .youtube-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   padding-bottom: 10px;
@@ -1113,6 +1185,8 @@ h1 {
 
 .youtube-img {
   border: 4px solid #FF0000;
+  padding: 10px;
+  background-color: white;
 }
 
 .youtube-req {
@@ -1123,4 +1197,10 @@ h1 {
   padding-top: 10px;
   order: 2px solid red;
 }
+
+.youtube-img:hover{
+ transform: scale(1.1);
+ transition: transform .4s
+}
+
 
