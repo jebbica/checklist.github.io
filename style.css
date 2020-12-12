@@ -213,10 +213,24 @@ h1 {
 
 /* extracurriculars AHHHHHHHHHHHHHHHHHHHHH */
 
+
+.ec-block2{
+  background-color: #5F5566;
+}
+
+.ec-block1{
+  background-color: #048A81;
+}
+
+.ec-block3{
+  background-color: #320E3B;
+}
+
 .ec-description{
   border: 6px dotted gray;
   padding: 20px;
   margin-top: 10px;
+  margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   text-align: center;
@@ -481,6 +495,22 @@ font-family: 'Comfortaa', cursive;
 
 /* education!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
+/* education.html */
+
+
+.e-block1{
+  background-color: #3E7C8B;
+}
+
+.e-block2{
+  background-color: #219BAB;
+}
+
+.e-block3{ 
+background-color: #B69991;
+}
+  
+
 /* KHAN ACADEMY */
 .KA {
   border: 10px solid #41AC92;
@@ -694,7 +724,7 @@ font-family: 'Comfortaa', cursive;
 /*                                           resources.html                           */
 
 .r-block2{
-  background-color: #F6E8EA;
+  background-color: #C1D7AE;
 }
 
 .r-block1{
@@ -702,7 +732,7 @@ font-family: 'Comfortaa', cursive;
 }
 
 .r-block3{
-  background-color: #2F4858;
+  background-color: #8BBEB2;
 }
 
 /*                                      resources during covid                           */
@@ -981,6 +1011,20 @@ font-family: 'Comfortaa', cursive;
 }
 
 /* WEllNESS */
+
+/* wellness.html */
+
+.w-block1{
+  background-color: #EB8370;
+}
+
+.w-block2{
+  background-color: #F0B5A8;
+}
+
+.w-block3{
+  background-color: #ABA987;
+}
 
 /* Arkadium */
 
